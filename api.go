@@ -5,5 +5,5 @@ type TypeAInterface interface {
 }
 
 type TypeBInterface interface {
-	Bar(manyTypeAs ...TypeA)
+	Bar(manyTypeAs ...TypeAInterface)
 }
